@@ -1,3 +1,125 @@
-body {background-color: powderblue;}
-h1   {color: blue;}
-p    {color: red;}
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+    /*border: 2px solid red;*/
+    
+}
+.logo {
+    /*width: 43%;*/
+    padding:10px;
+    background-color: #BEF9FC;
+    margin: 0 auto;
+   
+}
+
+name {
+   
+    padding:1%;
+    background-color: #BEF9FC;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+.logo  img{
+    width:75px;
+    height:75px;
+    
+}
+
+
+    
+nav {
+    width:82%;
+    padding:1%;
+    background-color: #BEF9FC;
+    margin: 0 auto;
+    
+   
+    }
+
+nav ul {
+    width:200px;
+    float: right;
+    background-color: #BEF9FC;
+    
+}
+nav ul li{
+    background-color: #BEF9FC;
+}
+
+.heroimg {
+    height: 600px;
+    padding:25px;
+    
+}
+.content {
+    width:600px;
+    margin:0 auto;
+    text-align:center;
+    box-shadow: 8px 8px 6px #888888;
+    
+    
+    }
+
+.content img {
+        
+        width:400px;
+       
+        }
+h1 {
+    font-family: "Manrope", Sans-serif;
+    color:#008080;
+}
+
+p {
+    font-family: "Manrope", Sans-serif; 
+    color:#333333; 
+}
+
+ button {
+    background-color: #333333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Manrope", Sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+   
+ }
+.button:hover {
+background-color: #008080;
+color: white;
+ }
+
+
+footer {
+    background-color: #BEF9FC;
+    padding: 1%;
+    /*border: 2px solid red;*/
+    
+}
+header {
+    background-color: #BEF9FC;
+    padding: 1%;
+    
+    
+}
+footer ul {
+    display:inline-block;
+    vertical-align: top;
+    background-color: #BEF9FC;
+}
+
+footer ul li {
+    padding: left 20px;
+    padding:right 20px;
+    text-align:center;
+    font-family: "Manrope", Sans-serif;
+    color:#333333;
+    background-color: #BEF9FC;
+
+}
